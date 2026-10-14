@@ -1,0 +1,110 @@
+{
+  "source_files": [
+    {
+      "name": "1998-01-2003版-带音.txt",
+      "bytes": 5320005,
+      "sha256": "37b85555df2f72642ff9815ac01f51d4f50024d80ca0e2e8a6be6f93b1038639",
+      "encoding": "gb18030",
+      "replacement_characters": 0
+    },
+    {
+      "name": "1998-02-2003版-带音.txt",
+      "bytes": 5441098,
+      "sha256": "a050351664f459aed2247bc45cd46c25da2ce893e11c44a9dea06a54529f19d8",
+      "encoding": "gb18030",
+      "replacement_characters": 0
+    },
+    {
+      "name": "1998-03-2003版-带音.txt",
+      "bytes": 5951910,
+      "sha256": "2f9d8ecfd92eec1b8a7009bd146da5faad218a34ae17fe460944bd772b2e97db",
+      "encoding": "gb18030",
+      "replacement_characters": 1
+    },
+    {
+      "name": "1998-04-2003版-带音.txt",
+      "bytes": 6107764,
+      "sha256": "43462d53f2f7603168745af3200a9e6fe883ddcdf18618280358499e0ffc3fca",
+      "encoding": "gb18030",
+      "replacement_characters": 1
+    },
+    {
+      "name": "1998-05-2003版-带音.txt",
+      "bytes": 5920187,
+      "sha256": "04ae37614a55c2418bcb5c7697c4980afa75a74734e930f06bee6e83022d0aea",
+      "encoding": "gb18030",
+      "replacement_characters": 3
+    },
+    {
+      "name": "1998-06-2003版-带音.txt",
+      "bytes": 5946378,
+      "sha256": "f18f8f3d6e886644baf8306e1f08a31e3a8d390709782f913ae1ea12f3e97c5f",
+      "encoding": "gb18030",
+      "replacement_characters": 0
+    }
+  ],
+  "label_order": [
+    "NONE",
+    "，",
+    "。",
+    "？",
+    "！",
+    "；",
+    "：",
+    "、"
+  ],
+  "raw_articles": 18631,
+  "removed_duplicate_articles": 3,
+  "removed_short_or_unlabelled_articles": 459,
+  "malformed_nonempty_lines": 0,
+  "removed_articles_with_decoding_errors": 3,
+  "removed_pronunciation_annotations": 95087,
+  "split_policy": "Jan-Apr train; May dev; June test; exact unpunctuated article dedup across all splits",
+  "splits": {
+    "train": {
+      "articles": 11817,
+      "characters": 7099290,
+      "max_article_chars": 15365,
+      "labels": {
+        "NONE": 6497125,
+        "，": 324116,
+        "。": 155834,
+        "？": 3491,
+        "！": 2488,
+        "；": 10830,
+        "：": 14540,
+        "、": 90866
+      }
+    },
+    "dev": {
+      "articles": 3142,
+      "characters": 1841030,
+      "max_article_chars": 10542,
+      "labels": {
+        "NONE": 1687588,
+        "，": 83179,
+        "。": 40597,
+        "？": 896,
+        "！": 535,
+        "；": 2756,
+        "：": 3602,
+        "、": 21877
+      }
+    },
+    "test": {
+      "articles": 3207,
+      "characters": 1858379,
+      "max_article_chars": 9592,
+      "labels": {
+        "NONE": 1705335,
+        "，": 83871,
+        "。": 40403,
+        "？": 842,
+        "！": 515,
+        "；": 2738,
+        "：": 3365,
+        "、": 21310
+      }
+    }
+  }
+}

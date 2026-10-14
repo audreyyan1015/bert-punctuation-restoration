@@ -1,0 +1,12 @@
+test_annotations_and_punctuation (test_pipeline.PipelineTests.test_annotations_and_punctuation) ... ok
+test_metrics_exclude_none (test_pipeline.PipelineTests.test_metrics_exclude_none) ... ok
+test_real_bert_forward_and_batch_alignment (test_pipeline.PipelineTests.test_real_bert_forward_and_batch_alignment) ... /root/agentsi_bench/.venv/lib/python3.12/site-packages/transformers/models/bert/tokenization_bert.py:104: DeprecationWarning: Deprecated in 0.9.0: WordPiece.__init__ will not create from files anymore, try `WordPiece.from_file` instead
+  self._tokenizer = Tokenizer(WordPiece(self._vocab, unk_token=str(unk_token)))
+ok
+test_window_ownership (test_pipeline.PipelineTests.test_window_ownership) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 3.111s
+
+OK
+sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute

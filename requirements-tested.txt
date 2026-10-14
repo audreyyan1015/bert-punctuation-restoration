@@ -1,0 +1,6 @@
+torch==2.11.0+cu128
+transformers==5.7.0
+numpy==2.4.4
+safetensors==0.7.0
+huggingface-hub==1.13.0
+tokenizers==0.22.2

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+data/*.jsonl
+pretrained/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.rar
+runs/reproduce*/
+prediction.txt

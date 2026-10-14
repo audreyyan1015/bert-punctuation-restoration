@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "optimizer_steps": 2256,
+  "processed_batches": 2256,
+  "skipped_overflow_updates": 0,
+  "wall_seconds": 232.1790736205876
+}

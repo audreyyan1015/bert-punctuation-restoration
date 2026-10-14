@@ -1,0 +1,5 @@
+{
+  "input": "学而时习之不亦说乎有朋自远方来不亦乐乎人不知而不愠不亦君子乎",
+  "prediction": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知而不愠，不亦君子乎？",
+  "scope": "Unscored ancient-text inference demonstration; no ancient accuracy claim"
+}

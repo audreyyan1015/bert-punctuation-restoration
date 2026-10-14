@@ -1,0 +1,164 @@
+{
+  "training": {
+    "status": "completed",
+    "optimizer_steps": 2256,
+    "processed_batches": 2256,
+    "skipped_overflow_updates": 0,
+    "wall_seconds": 232.1790736205876
+  },
+  "test": {
+    "characters": 1858379,
+    "accuracy": 0.9718959372657568,
+    "punctuation_micro_precision": 0.7343044911830571,
+    "punctuation_micro_recall": 0.8527286270614987,
+    "punctuation_micro_f1": 0.7890981648879886,
+    "punctuation_macro_f1": 0.6391019868204088,
+    "sentence_boundary_f1": 0.8483553747032893,
+    "per_label": {
+      "NONE": {
+        "precision": 0.9970208008434817,
+        "recall": 0.982590517405671,
+        "f1": 0.9897530646889475,
+        "support": 1705335,
+        "predicted": 1680653
+      },
+      "，": {
+        "precision": 0.7525080076535197,
+        "recall": 0.8487439043292676,
+        "f1": 0.7977340475603469,
+        "support": 83871,
+        "predicted": 94597
+      },
+      "。": {
+        "precision": 0.7978157749586321,
+        "recall": 0.8950077964507586,
+        "f1": 0.8436216871967153,
+        "support": 40403,
+        "predicted": 45325
+      },
+      "？": {
+        "precision": 0.6900191938579654,
+        "recall": 0.8539192399049881,
+        "f1": 0.7632696390658174,
+        "support": 842,
+        "predicted": 1042
+      },
+      "！": {
+        "precision": 0.3760932944606414,
+        "recall": 0.2504854368932039,
+        "f1": 0.3006993006993007,
+        "support": 515,
+        "predicted": 343
+      },
+      "；": {
+        "precision": 0.44940747493163175,
+        "recall": 0.36011687363038714,
+        "f1": 0.39983779399837793,
+        "support": 2738,
+        "predicted": 2194
+      },
+      "：": {
+        "precision": 0.5547016274864376,
+        "recall": 0.7292719167904903,
+        "f1": 0.630119399152651,
+        "support": 3365,
+        "predicted": 4424
+      },
+      "、": {
+        "precision": 0.6332337841012047,
+        "recall": 0.8855466916940403,
+        "f1": 0.7384320400696524,
+        "support": 21310,
+        "predicted": 29801
+      }
+    },
+    "confusion_matrix": [
+      [
+        1675646,
+        17909,
+        1938,
+        120,
+        43,
+        95,
+        1055,
+        8529
+      ],
+      [
+        3224,
+        71185,
+        5801,
+        103,
+        43,
+        636,
+        673,
+        2206
+      ],
+      [
+        302,
+        3076,
+        36161,
+        57,
+        110,
+        423,
+        209,
+        65
+      ],
+      [
+        20,
+        50,
+        32,
+        719,
+        17,
+        2,
+        0,
+        2
+      ],
+      [
+        21,
+        52,
+        267,
+        35,
+        129,
+        3,
+        4,
+        4
+      ],
+      [
+        60,
+        754,
+        850,
+        4,
+        0,
+        986,
+        4,
+        80
+      ],
+      [
+        178,
+        477,
+        207,
+        0,
+        1,
+        4,
+        2454,
+        44
+      ],
+      [
+        1202,
+        1094,
+        69,
+        4,
+        0,
+        45,
+        25,
+        18871
+      ]
+    ],
+    "windows": 7863,
+    "forward_calls": 271,
+    "articles": 3207
+  },
+  "report_pages": 6,
+  "checkpoint_hash_check": "passed",
+  "package_scope": "source, corpus statistics, experiment records, metrics and ancient inference example; original corpus and weights are not tracked in Git"
+}

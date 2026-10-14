@@ -1,0 +1,16 @@
+{
+  "train": {
+    "articles": 11817,
+    "characters": 7099290
+  },
+  "dev": {
+    "articles": 3142,
+    "characters": 1841030
+  },
+  "test": {
+    "articles": 3207,
+    "characters": 1858379
+  },
+  "status": "passed",
+  "all_article_text_hashes_disjoint": true
+}

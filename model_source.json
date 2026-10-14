@@ -1,0 +1,31 @@
+{
+  "repo_id": "google-bert/bert-base-chinese",
+  "commit": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+  "files": [
+    {
+      "name": "config.json",
+      "bytes": 624,
+      "sha256": "88af762cfb15fa9ce183c84dcbfdc9d635196ba635dfe81f265fdd21d67f4c4c"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 49,
+      "sha256": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 268943,
+      "sha256": "55c5edcfb8936895e019b2d8f97dcb547734f25b29f95009155f4c8c15649aae"
+    },
+    {
+      "name": "vocab.txt",
+      "bytes": 109540,
+      "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 411553788,
+      "sha256": "3404a1ffd8da507042e8161013ba2a4fc49858b4e3f8fbf5ce5724f94883aec3"
+    }
+  ]
+}

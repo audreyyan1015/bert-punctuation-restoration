@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "input_chars": 9592,
+  "output_chars": 10575,
+  "original_characters_preserved": true,
+  "matches_decoder_prediction": true,
+  "command": [
+    "python",
+    "-m",
+    "punct.predict",
+    "--model",
+    "runs/main/best",
+    "--input",
+    "examples/long_input.txt",
+    "--output",
+    "examples/cli_long_prediction.txt",
+    "--batch-size",
+    "16"
+  ]
+}
